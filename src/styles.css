@@ -1,21 +1,128 @@
+/* General Reset */
 * {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-html, body {
   margin: 0;
-  border: 0;
   padding: 0;
-  background-color: #fff;
+  box-sizing: border-box;
 }
 
-main {
-  margin: auto;
-  width: 50%;
+/* Body and Font */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Header & Navigation */
+header {
+  background-color: #333;
   padding: 20px;
 }
 
-main > h1 {
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+  background: url('hero-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 0;
   text-align: center;
-  font-size: 3.5em;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* Courses Section */
+#courses {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#courses h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.course-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.course {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.course p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#promotions {
+  background-color: #f7f7f7;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
 }
