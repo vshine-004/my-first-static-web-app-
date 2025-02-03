@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Our Courses</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <!-- Navigation Bar -->
   <header>
     <nav>
+      <div class="logo">OurCourses</div>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#courses">Courses</a></li>
+        <li><a href="#promotions">Promotions</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -20,9 +25,11 @@
 
   <!-- Hero Section -->
   <section id="hero">
-    <h1>Welcome to Our Courses</h1>
-    <p>Explore our range of courses and start your learning journey today!</p>
-    <a href="#courses" class="cta-button">Browse Courses</a>
+    <div class="hero-content">
+      <h1>Welcome to Our Courses</h1>
+      <p>Transform your skills with our expert-led courses and get ahead in your career.</p>
+      <a href="#courses" class="cta-button">Browse Courses</a>
+    </div>
   </section>
 
   <!-- Courses Section -->
@@ -30,18 +37,18 @@
     <h2>Our Featured Courses</h2>
     <div class="course-container">
       <div class="course">
-        <h3>Course 1</h3>
-        <p>Learn the basics of web development and start building websites.</p>
+        <h3>Web Development Bootcamp</h3>
+        <p>Learn the fundamentals of web development in this hands-on course.</p>
         <button class="cta-button">Enroll Now</button>
       </div>
       <div class="course">
-        <h3>Course 2</h3>
-        <p>Master Python programming and dive into data science.</p>
+        <h3>Python for Data Science</h3>
+        <p>Learn Python and its application in the field of data science and machine learning.</p>
         <button class="cta-button">Enroll Now</button>
       </div>
       <div class="course">
-        <h3>Course 3</h3>
-        <p>Become a full-stack developer with the MERN stack.</p>
+        <h3>Full-Stack JavaScript</h3>
+        <p>Become a full-stack developer using JavaScript with Node.js, Express, and MongoDB.</p>
         <button class="cta-button">Enroll Now</button>
       </div>
     </div>
@@ -50,20 +57,21 @@
   <!-- Promotions Section -->
   <section id="promotions">
     <h2>Special Promotions</h2>
-    <p>Get 20% off on all courses this month! Use code <strong>LEARN20</strong></p>
+    <p>Get a 20% discount on all courses. Use code <strong>LEARN20</strong> at checkout!</p>
     <a href="#courses" class="cta-button">Browse Courses</a>
   </section>
 
   <!-- Contact Section -->
   <section id="contact">
-    <h2>Get in Touch</h2>
-    <p>If you have any questions, feel free to <a href="mailto:info@ourcourses.com">contact us</a>.</p>
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feel free to <a href="mailto:info@ourcourses.com">email us</a>.</p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Our Courses | All Rights Reserved</p>
+    <p>&copy; 2025 OurCourses | All Rights Reserved</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
+
 </html>
